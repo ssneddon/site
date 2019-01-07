@@ -74,11 +74,11 @@
 					<!-- <li><a href="#service">Services</a></li>
 					<li><a href="#pricing">Prices</a></li>
 					<li><a href="#team">Team</a></li> -->
-					<li class="has-dropdown"><a href="#blog">Blog</a>
+					<!-- <li class="has-dropdown"><a href="#blog">Blog</a>
 						<ul class="dropdown">
 							<li><a href="blog-single.html">blog post</a></li>
 						</ul>
-					</li>
+					</li> -->
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -284,22 +284,22 @@
 	</div>
 	<!-- /Portfolio -->
 
-	<!-- Blog -->
+	<!-- Blog 
 	<div id="blog" class="section md-padding bg-grey">
 
-		<!-- Container -->
+		 Container 
 		<div class="container">
 
-			<!-- Row -->
+			 Row 
 			<div class="row">
 
-				<!-- Section header -->
+				 Section header 
 				<div class="section-header text-center">
 					<h2 class="title">Recents news</h2>
 				</div>
-				<!-- /Section header -->
+				 /Section header 
 
-				<!-- blog -->
+				 blog 
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
@@ -317,9 +317,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- /blog -->
+				 /blog 
 
-				<!-- blog -->
+				 blog 
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
@@ -337,9 +337,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- /blog -->
+				 /blog 
 
-				<!-- blog -->
+				 blog 
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
@@ -357,16 +357,16 @@
 						</div>
 					</div>
 				</div>
-				<!-- /blog -->
+				 /blog 
 
 			</div>
-			<!-- /Row -->
+			 /Row 
 
 		</div>
-		<!-- /Container -->
+		 /Container 
 
 	</div>
-	<!-- /Blog -->
+	 /Blog -->
 
 	<!-- Contact -->
 	<div id="contact" class="section md-padding">
@@ -452,7 +452,7 @@
 					</div>
 					<!-- /footer logo -->
 
-					<!-- footer follow -->
+					<!-- footer follow 
 					<ul class="footer-follow">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -461,7 +461,7 @@
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 					</ul>
-					<!-- /footer follow -->
+					     /footer follow -->
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
@@ -504,7 +504,6 @@
 	<script>
 	function submitToAPI(e) {
 			e.preventDefault();
-			var URL = "https://f80n3b9ad5.execute-api.us-east-1.amazonaws.com/contactStage";
 
 			var Namere = /[A-Za-z]{1}[A-Za-z]/;
 			if (!Namere.test($("#name").val())) {
@@ -545,7 +544,7 @@
 				success: function () {
 					// clear form and show a success message
 					alert("Successfull");
-					document.getElementById("contact-form").reset();
+					document.getElementByClassName("contact-form").reset();
 					location.reload();
 				},
 				error: function () {
