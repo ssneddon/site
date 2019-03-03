@@ -102,4 +102,8 @@
 		}
 	});
 
+	///////////////////////////
+	// copyright date
+	$('#siteDate').html(new Date().getFullYear());
+
 })(jQuery);
