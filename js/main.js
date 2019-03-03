@@ -1,4 +1,4 @@
-(function($) {
+	(function($) {
 	"use strict"
 
 	///////////////////////////
@@ -59,6 +59,18 @@
 	$('.work').magnificPopup({
 		delegate: '.lightbox',
 		type: 'image'
+	});
+
+	///////////////////////////
+	// resume show
+	$('.showResume').on('click', function() {
+		$("#resume").show('blind');
+	});
+
+	///////////////////////////
+	// resume hide
+	$('.closeResume').on('click', function() {
+		$("#resume").hide('blind');
 	});
 
 	///////////////////////////

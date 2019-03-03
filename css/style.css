@@ -114,8 +114,8 @@ a:hover, a:focus {
 
 ul, ol {
     margin: 0;
-    padding: 0;
-    list-style: none
+    padding: 0 0 0 15px;
+    list-style: disc;
 }
 
 /* -- section  -- */
@@ -264,9 +264,16 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     padding: 0;
 }
 
-.navbar-brand .logo, .navbar-brand .logo-alt {
+.navbar-brand .logo {
     max-height: 50px;
     display: block;
+    color:black;
+    font-size:50px;
+}
+
+.navbar-brand .logo-alt {
+    color:white;
+    font-size:50px;
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
@@ -274,7 +281,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #nav.nav-transparent:not(.fixed-nav) .navbar-brand .logo {
-	display: none;
+    display: none;
 }
 
 #nav.fixed-nav .navbar-brand .logo-alt {
@@ -662,6 +669,35 @@ header {
 
 .about:hover h3 {
     color: #fff;
+}
+
+.showResume {
+    cursor:pointer;
+}
+
+#resume {
+    display:none;
+    position: relative;
+    border: 1px solid #EEE;
+    margin:0;
+}
+
+.closeResume {
+    font-size:24px;
+    position:absolute;
+    right:0;
+    padding:5px;
+    cursor:pointer;
+    display:block;
+    z-index:1;
+}
+
+.skills {
+    padding-top:20px;
+}
+
+.skills p {
+    margin-bottom:5px;
 }
 
 
@@ -1488,6 +1524,7 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
+    color:white;
 }
 
 
