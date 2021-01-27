@@ -64,8 +64,7 @@
 	///////////////////////////
 	// resume show
 	$('.showResume').on('click', function() {
-		$("#resume").hide('blind');
-		$("#resume").show('blind');
+		$("#resume").toggle(500);
 	});
 
 	///////////////////////////
