@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dafaa78e-5435-4ec6-b25d-fb763b0ba316" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Drupal_Containerized.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Drupal_Containerized_thumb.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +63,7 @@
       <workItem from="1610046086313" duration="1030000" />
       <workItem from="1611756216831" duration="1385000" />
       <workItem from="1620149359508" duration="17000" />
+      <workItem from="1628784410985" duration="2370000" />
     </task>
     <servers />
   </component>
@@ -76,11 +81,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="465" y="-1038" width="670" height="676" key="search.everywhere.popup" timestamp="1610047093727">
-      <screen x="-380" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="465" y="-1038" width="670" height="676" key="search.everywhere.popup/-380.-1417.2560.1417/0.23.1792.1097@-380.-1417.2560.1417" timestamp="1610047093727" />
   </component>
 </project>
